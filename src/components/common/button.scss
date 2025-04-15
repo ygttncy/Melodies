@@ -1,14 +1,14 @@
 .btn {
   font-family: "Vazirmatn", sans-serif;
   font-size: 16px;
-  border-radius: 100px;
+ 
   padding: 10px 24px;
   border: none;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 12px;
   transition: all 0.3s ease;
 
   &__icon {
@@ -22,6 +22,7 @@
     background-color: #ee10b0;
     color: white;
     border: none;
+    width: 160px;
 
     &:hover {
       opacity: 0.85;
@@ -33,6 +34,7 @@
     background-color: transparent;
     color: #ee10b0;
     border: 1.5px solid #ee10b0;
+    width: 160px;
 
     &:hover {
       background-color: #ee10b010;
@@ -69,5 +71,6 @@
     &:hover {
       background-color: rgba(255, 255, 255, 0.05);
     }
+   
   }
 }

@@ -1,5 +1,6 @@
 .navbar {
   width: 100%;
+  max-width: 1080px;
   height: 64px;
   background-color: #121212;
   display: flex;
@@ -28,7 +29,11 @@
   }
 
   &__center {
+    justify-content: center;
+    align-items: center;
     display: flex;
+    flex: 1;
+ 
     gap: 24px;
 
     .navbar__link {
@@ -48,6 +53,7 @@
   }
 
   &__right {
+    
     display: flex;
     gap: 12px;
   }
