@@ -1,0 +1,73 @@
+.btn {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // 🔵 Primary
+  &--primary {
+    background-color: #ee10b0;
+    color: white;
+    border: none;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  // 🔲 Outline
+  &--outline {
+    background-color: transparent;
+    color: #ee10b0;
+    border: 1.5px solid #ee10b0;
+
+    &:hover {
+      background-color: #ee10b010;
+    }
+  }
+
+  // 🔵 Blue
+  &--blue {
+    background-color: #4daafc;
+    color: white;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  // 🔲 Blue Outline
+  &--blue-outline {
+    background-color: transparent;
+    color: #4daafc;
+    border: 1.5px solid #4daafc;
+
+    &:hover {
+      background-color: #4daafc10;
+    }
+  }
+
+  // 🔲 Google
+  &--google {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+  }
+}
