@@ -1,0 +1,73 @@
+.sidebar {
+  width: 270px;
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+  font-family: "Vazirmatn", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-right: 2px solid #ee10b0;
+  box-shadow: 8px 0px 24.2px 0px #ee10b026;
+  left: 0;
+  position: fixed;
+  top: 0;
+
+  &__logo {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to right, #c32ec9, #5d58e7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &-title {
+      width: 174px;
+      height: 19px;
+      font-size: 13px;
+      color: #ee10b0;
+      text-transform: uppercase;
+      margin-left: 50px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 174px;
+        height: 22px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 4px 8px;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+        &:hover {
+          background-color: #ee10b0;
+        }
+
+        svg {
+          font-size: 14px;
+        }
+      }
+
+      .add-playlist {
+        color: #4daafc;
+      }
+    }
+  }
+}
