@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar__left">
-        {/* Search component buraya entegre edilecek */}
+     
         <input
           type="text"
           className="navbar__search"

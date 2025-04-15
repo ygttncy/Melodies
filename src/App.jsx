@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
 
-// Sayfa bileşenleri (şimdilik örnek sayfalar)
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 const App = () => {
   return (
     <div className="app-layout">
+      <Sidebar/>
       <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />

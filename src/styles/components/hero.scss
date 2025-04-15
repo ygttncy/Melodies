@@ -1,0 +1,56 @@
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 1080px;
+  height: 595px;
+  margin-top: 48px;
+  margin-left: 295px;
+  border-radius: 25px;
+  overflow: hidden;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+  // 🟣 Navbar yukarıda overlay olacak
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    z-index: 10;
+    background: transparent;
+    backdrop-filter: blur(4px);
+  }
+
+  &__overlay {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 0 60px;
+    max-width: 600px;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+
+      span {
+        color: #ee10b0;
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .hero__buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+  }
+}

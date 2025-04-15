@@ -1,12 +1,9 @@
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+
 const Home = () => {
   return (
-    <div className="app-layout">
-      <Sidebar />
-      <div className="main-content">
-        <Navbar />
-      </div>
+    <div>
+      <HeroSection />
     </div>
   );
 };
