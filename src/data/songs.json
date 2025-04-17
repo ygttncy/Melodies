@@ -1,0 +1,67 @@
+{
+    "weeklyTop": [
+      {
+        "id": 1,
+        "title": "Image Dragons",
+        "songname": "Whatever It Takes",
+        "image": "src/assets/Rectangle17.png"
+      },
+      {
+        "id": 2,
+        "title": "Adele",
+        "songname": "Skyfall",
+        "image": "src/assets/Rectangle17-1.png"
+      },
+      {
+        "id": 3,
+        "title": "Eminem",
+        "songname": "Superman",
+        "image": "src/assets/Rectangle17-2.png"
+      },
+      {
+        "id": 4,
+        "title": "The Neighberhood",
+        "songname": "Softcore",
+        "image": "src/assets/Rectangle17-3.png"
+      },
+      {
+        "id": 5,
+        "title": "Måneskin",
+        "songname": "The Lonliest",
+        "image": "src/assets/Rectangle17-4.png"
+      }
+    ],
+    "newReleases": [
+      {
+        "id": 6,
+        "title": "Luciano",
+        "songname": "Time",
+        "image": "src/assets/Rectangle17-5.png"
+      },
+      {
+        "id": 7,
+        "title": "jazzek",
+        "songname": "112",
+        "image": "src/assets/Rectangle17-6.png"
+      },
+      {
+        "id": 8,
+        "title": "We Don”t Care",
+        "songname": "Kyanu & Dj Gullum",
+        "image": "src/assets/Rectangle17-7.png"
+      },
+      {
+        "id": 9,
+        "title": "Who I Am",
+        "songname": "Alan Walker &  Elias",
+        "image": "src/assets/Rectangle17-8.png"
+      },
+      {
+        "id": 10,
+        "title": "Baixo",
+        "songname": "XXAnteria",
+        "image": "src/assets/Rectangle17-9.png"
+      }
+    ]
+  }
+  
