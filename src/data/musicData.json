@@ -1,0 +1,869 @@
+{
+  "artists": [
+    {
+      "id": "1",
+      "name": "Imagine Dragons",
+      "image": "src/assets/Rectangle17.png",
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
+      "followers": 12000000,
+      "songs": [
+        {
+          "id": "101",
+          "songname": "Whatever It Takes",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/imagine-dragons-whatever-it-takes.mp3",
+          "releaseDate": "2017-05-08",
+          "album": "Evolve",
+          "duration": "3:39",
+          "isTrending": true
+        },
+        {
+          "id": "102",
+          "songname": "Believer",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/imagine-dragons-believer.mp3",
+          "releaseDate": "2017-02-01",
+          "album": "Evolve",
+          "duration": "3:24",
+          "isTrending": true
+        },
+        {
+          "id": "103",
+          "songname": "Thunder",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/thunder.mp3",
+          "releaseDate": "2017-04-27",
+          "album": "Evolve",
+          "duration": "3:07",
+          "isTrending": true
+        },
+        {
+          "id": "104",
+          "songname": "Radioactive",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/radioactive.mp3",
+          "releaseDate": "2012-04-03",
+          "album": "Night Visions",
+          "duration": "3:06",
+          "isTrending": true
+        },
+        {
+          "id": "105",
+          "songname": "Demons",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/demons.mp3",
+          "releaseDate": "2012-09-17",
+          "album": "Night Visions",
+          "duration": "2:57",
+          "isTrending": true
+        },
+        {
+          "id": "106",
+          "songname": "Natural",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/natural.mp3",
+          "releaseDate": "2018-07-17",
+          "album": "Origins",
+          "duration": "3:09",
+          "isTrending": true
+        },
+        {
+          "id": "107",
+          "songname": "Bad Liar",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/bad-liar.mp3",
+          "releaseDate": "2018-11-06",
+          "album": "Origins",
+          "duration": "4:20",
+          "isTrending": true
+        },
+        {
+          "id": "108",
+          "songname": "Shots",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/shots.mp3",
+          "releaseDate": "2015-01-26",
+          "album": "Smoke + Mirrors",
+          "duration": "3:52",
+          "isTrending": true
+        },
+        {
+          "id": "109",
+          "songname": "Birds",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/birds.mp3",
+          "releaseDate": "2019-06-20",
+          "album": "Origins",
+          "duration": "3:39",
+          "isTrending": true
+        },
+        {
+          "id": "110",
+          "songname": "Bones",
+          "title": "Imagine Dragons",
+          "image": "src/assets/Rectangle17.png",
+          "audio": "/assets/bones.mp3",
+          "releaseDate": "2022-03-11",
+          "album": "Mercury – Acts 1 & 2",
+          "duration": "2:45",
+          "isTrending": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Adele",
+      "image": "src/assets/Rectangle17-1.png",
+      "genres": [
+        "Pop",
+        "Soul ,R&B "
+      ],
+      "followers": 8000000,
+      "songs": [
+        {
+          "id": "201",
+          "songname": "Skyfall",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/Adele - Skyfall (Official Lyric Video).mp3",
+          "releaseDate": "2020-03-27",
+          "album": "Future Nostalgia",
+          "duration": "3:23",
+          "isTrending": true
+        },
+        {
+          "id": "202",
+          "songname": "Hello",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/hello.mp3",
+          "releaseDate": "2015-10-23",
+          "album": "25",
+          "duration": "4:55",
+          "isTrending": true
+        },
+        {
+          "id": "203",
+          "songname": "Rolling in the Deep",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/rolling-in-the-deep.mp3",
+          "releaseDate": "2010-11-29",
+          "album": "21",
+          "duration": "3:48",
+          "isTrending": true
+        },
+        {
+          "id": "204",
+          "songname": "Someone Like You",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/someone-like-you.mp3",
+          "releaseDate": "2011-01-24",
+          "album": "21",
+          "duration": "4:45",
+          "isTrending": true
+        },
+        {
+          "id": "205",
+          "songname": "Easy On Me",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/easy-on-me.mp3",
+          "releaseDate": "2021-10-15",
+          "album": "30",
+          "duration": "3:45",
+          "isTrending": true
+        },
+        {
+          "id": "206",
+          "songname": "Set Fire to the Rain",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/set-fire-to-the-rain.mp3",
+          "releaseDate": "2011-07-04",
+          "album": "21",
+          "duration": "4:02",
+          "isTrending": true
+        },
+        {
+          "id": "207",
+          "songname": "When We Were Young",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/when-we-were-young.mp3",
+          "releaseDate": "2015-11-20",
+          "album": "25",
+          "duration": "4:51",
+          "isTrending": true
+        },
+        {
+          "id": "208",
+          "songname": "Send My Love",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/send-my-love.mp3",
+          "releaseDate": "2016-05-16",
+          "album": "25",
+          "duration": "3:43",
+          "isTrending": true
+        },
+        {
+          "id": "209",
+          "songname": "Love in the Dark",
+          "title": "Adele",
+          "image": "src/assets/Rectangle17-1.png",
+          "audio": "/assets/love-in-the-dark.mp3",
+          "releaseDate": "2015-11-20",
+          "album": "25",
+          "duration": "4:45",
+          "isTrending": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dua Lipa",
+      "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+      "genres": [
+        "Pop",
+        "Dance"
+      ],
+      "followers": 8000000,
+      "songs": [
+        {
+          "id": "301",
+          "songname": "Don't Start Now",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "public/assets/Dua Lipa - Dont Start Now (Lyrics).mp3",
+          "releaseDate": "2019-11-01",
+          "album": "Future Nostalgia",
+          "duration": "3:23",
+          "isTrending": true
+        },
+        {
+          "id": "302",
+          "songname": "Levitating",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/levitating.mp3",
+          "releaseDate": "2020-10-01",
+          "album": "Future Nostalgia",
+          "duration": "3:23",
+          "isTrending": true
+        },
+        {
+          "id": "303",
+          "songname": "Love Again",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/love-again.mp3",
+          "releaseDate": "2021-06-11",
+          "album": "Future Nostalgia",
+          "duration": "4:18",
+          "isTrending": true
+        },
+        {
+          "id": "304",
+          "songname": "Physical",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/physical.mp3",
+          "releaseDate": "2020-01-31",
+          "album": "Future Nostalgia",
+          "duration": "3:13",
+          "isTrending": true
+        },
+        {
+          "id": "305",
+          "songname": "IDGAF",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/idgaf.mp3",
+          "releaseDate": "2018-01-12",
+          "album": "Dua Lipa",
+          "duration": "3:37",
+          "isTrending": true
+        },
+        {
+          "id": "306",
+          "songname": "New Rules",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/new-rules.mp3",
+          "releaseDate": "2017-07-02",
+          "album": "Dua Lipa",
+          "duration": "3:29",
+          "isTrending": true
+        },
+        {
+          "id": "307",
+          "songname": "Break My Heart",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/break-my-heart.mp3",
+          "releaseDate": "2020-03-25",
+          "album": "Future Nostalgia",
+          "duration": "3:41",
+          "isTrending": true
+        },
+        {
+          "id": "308",
+          "songname": "Be the One",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/be-the-one.mp3",
+          "releaseDate": "2015-10-30",
+          "album": "Dua Lipa",
+          "duration": "3:24",
+          "isTrending": true
+        },
+        {
+          "id": "309",
+          "songname": "We're Good",
+          "title": "Dua Lipa",
+          "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+          "audio": "/assets/were-good.mp3",
+          "releaseDate": "2021-02-11",
+          "album": "Future Nostalgia: The Moonlight Edition",
+          "duration": "2:45",
+          "isTrending": true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ed Sheeran",
+      "image": "src/assets/artists/Ed Sheeran.jpg",
+      "genres": [
+        "Pop",
+        "Dance"
+      ],
+      "followers": 8000000,
+      "songs": [
+        {
+          "id": "301",
+          "songname": "Shpae Of You",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "public/assets/Ed Sheeran - Shape Of You (Lyrics).mp3",
+          "releaseDate": "2017-01-06",
+          "album": "Divide",
+          "duration": "3:53",
+          "isTrending": true
+        },
+        {
+          "id": "302",
+          "songname": "Perfect",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/perfect.mp3",
+          "releaseDate": "2017-03-03",
+          "album": "Divide",
+          "duration": "4:23",
+          "isTrending": true
+        },
+        {
+          "id": "303",
+          "songname": "Photograph",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/photograph.mp3",
+          "releaseDate": "2015-05-11",
+          "album": "X",
+          "duration": "4:19",
+          "isTrending": true
+        },
+        {
+          "id": "304",
+          "songname": "Thinking Out Loud",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/thinking-out-loud.mp3",
+          "releaseDate": "2014-09-24",
+          "album": "X",
+          "duration": "4:41",
+          "isTrending": true
+        },
+        {
+          "id": "305",
+          "songname": "Bad Habits",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/bad-habits.mp3",
+          "releaseDate": "2021-06-25",
+          "album": "=",
+          "duration": "3:50",
+          "isTrending": true
+        },
+        {
+          "id": "306",
+          "songname": "Shivers",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/shivers.mp3",
+          "releaseDate": "2021-09-10",
+          "album": "=",
+          "duration": "3:27",
+          "isTrending": true
+        },
+        {
+          "id": "307",
+          "songname": "Castle on the Hill",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/castle-on-the-hill.mp3",
+          "releaseDate": "2017-01-06",
+          "album": "Divide",
+          "duration": "4:21",
+          "isTrending": true
+        },
+        {
+          "id": "308",
+          "songname": "Afterglow",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/afterglow.mp3",
+          "releaseDate": "2020-12-21",
+          "album": "Single",
+          "duration": "3:05",
+          "isTrending": true
+        },
+        {
+          "id": "309",
+          "songname": "Overpass Graffiti",
+          "title": "Ed Sheeran",
+          "image": "src/assets/artists/Ed Sheeran.jpg",
+          "audio": "/assets/overpass-graffiti.mp3",
+          "releaseDate": "2021-10-29",
+          "album": "=",
+          "duration": "3:56",
+          "isTrending": true
+        }
+      ]
+    }
+  ],
+  "newReleases": [
+    {
+      "id": "301",
+      "songname": "Radioactive",
+      "title": "Imagine Dragons",
+      "image": "src/assets/Rectangle17.png",
+      "audio": "/assets/Imagine Dragons - Radioactive (Lyric Video).mp3",
+      "releaseDate": "2012-09-04",
+      "album": "Night Visions",
+      "duration": "3:05"
+    },
+    {
+      "id": "302",
+      "songname": "Future Nostalgia",
+      "title": "Dua Lipa",
+      "image": "src/assets/Dua_Lipa_-_Future_Nostalgia.png",
+      "audio": "/assets/Dua Lipa - Future Nostalgia (Lyrics).mp3",
+      "releaseDate": "2024-06-15",
+      "album": "Future Nostalgia",
+      "duration": "3:12"
+    },
+    {
+      "id": "303",
+      "songname": "Shape of You",
+      "title": "Ed Sheeran",
+      "image": "src/assets/artists/Ed Sheeran.jpg",
+      "audio": "public/assets/Ed Sheeran - Shape Of You (Lyrics).mp3",
+      "releaseDate": "2024-07-20",
+      "album": "Divide",
+      "duration": "3:53"
+    },
+    {
+      "id": "304",
+      "songname": "Blinding Lights",
+      "title": "The Weeknd",
+      "image": "src/assets/artists/The-Weekend.png",
+      "audio": "/assets/The Weeknd - Blinding Lights (Official Audio).mp3",
+      "releaseDate": "2019-11-29",
+      "album": "After Hours",
+      "duration": "3:20"
+    },
+    {
+      "id": "305",
+      "songname": "Bad Guy",
+      "title": "Billie Eilish",
+      "image": "src/assets/When We All Fall Asleep, Where Do We Go.webp",
+      "audio": "/assets/Billie Eilish - bad guy (Lyrics).mp3",
+      "releaseDate": "2019-03-29",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "duration": "3:14"
+    },
+    {
+      "id": "306",
+      "songname": "Godzilla",
+      "title": "Eminem",
+      "image": "src/assets/artists/Eminem.png",
+      "audio": "public/assets/Eminem - Godzilla (Lyrics) ft. Juice WRLD.mp3",
+      "releaseDate": "2020-01-17",
+      "album": "Music to Be Murdered By",
+      "duration": "3:20"
+    }
+   
+  ],
+  "popularArtists": [
+    {
+      "id": "2",
+      "name": "Dua Lipa",
+      "image": "src/assets/artists/Dua_Lipa_(albüm).png",
+      "followers": 8000000,
+      "genres": [
+        "Pop",
+        "Dance"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Imagine Dragons",
+      "image": "src/assets/Rectangle17.png",
+      "followers": 12000000,
+      "genres": [
+        "Pop",
+        "Rock"
+      ]
+     
+    },
+    {
+      "id": "3",
+      "name": "Adele",
+      "image": "src/assets/Rectangle17-1.png",
+      "followers": 8000000,
+      "genres": [
+        "Pop",
+        "Soul ,R&B "
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ed Sheeran",
+      "image": "src/assets/artists/Ed Sheeran.jpg",
+      "followers": 8000000,
+      "genres": [
+        "Pop",
+        "Dance"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Billie Eilish",
+      "image": "src/assets/artists/Billie-Eilish.png",
+      "followers": 8000000,
+      "genres": [
+        "Pop",
+        "Alternative"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Eminem",
+      "image": "src/assets/artists/Eminem.png",
+      "followers": 8000000,
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Alen Walker", 
+      "image": "src/assets/Rectangle17-8.png",
+      "followers": 8000000,
+      "genres": [
+        "Electronic ",
+        "EDM "
+      ]
+    },
+    {
+      "id": "8",
+      "name": "The Weeknd",
+      "image": "src/assets/artists/The-Weekend.png",
+      "followers": 8000000,
+      "genres": [
+        "R&B",
+        "Pop"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Harrty Styles",
+      "image": "src/assets/artists/Harry-Styles.png",
+      "followers": 8000000,
+      "genres": [
+        "Pop",
+        "Rock"
+       
+      ]
+    }
+  ],
+  "musicVideos": [
+    {
+      "id": "401",
+      "songname": "Believer (Music Video)",
+      "title": "Imagine Dragons",
+      "thumbnail": "src/assets/Rectangle17.png",
+      "videoUrl": "https://www.youtube.com/watch?v=7wtfhZwyrcc",
+      "views": "500M"
+    },
+    {
+      "id": "402",
+      "songname": "Lose Yourself",
+      "title": "Eminem",
+      "thumbnail": "src/assets/lose-yourself-lyrics-meaning.webp",
+      "videoUrl": "https://www.youtube.com/watch?v=_Yhyp-_hX2s",
+      "views": "1B"
+    },
+    {
+      "id": "403",
+      "songname": "Starboy",
+      "title": "The Weeknd",
+      "thumbnail": "src/assets/starboy.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=34Na4j8AVgA",
+      "views": "2B"
+    },
+    {
+      "id": "404",
+      "songname": "Therefore I Am",
+      "title": "Billie Eilish",
+      "thumbnail": "src/assets/Therefore-I-Am.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=RUQl6YcMalg",
+      "views": "500M"
+    },
+    {
+      "id": "405",
+      "songname": "Rockstar",
+      "title": "Post Malone",
+      "thumbnail": "src/assets/Rockstar.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=UceaB4D0jpo",
+      "views": "1B"
+    },
+    {
+      "id": "406",
+      "songname": "Hotline Bling",
+      "title": "Drake",
+      "thumbnail": "src/assets/Hotline Bling.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=uxpDa-c-4Mc",
+      "views": "1.8B"
+    },
+    {
+      "id": "407",
+      "songname": "Shake It Off",
+      "title": "Taylor Swift",
+      "thumbnail": "src/assets/Shake It Off.webp",
+      "videoUrl": "https://www.youtube.com/watch?v=nfWlot6h_JM",
+      "views": "3.3B"
+    },
+    {
+      "id": "408",
+      "songname": "One Dance",
+      "title": "Drake",
+      "thumbnail": "src/assets/One Dance.png",
+      "videoUrl": "https://www.youtube.com/watch?v=iAbnEUA0wpA",
+      "views": "2B"
+    },
+    {
+      "id": "409",
+      "songname": "Save Your Tears",
+      "title": "The Weeknd",
+      "thumbnail": "src/assets/Save Your Tears.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=XXYlFuWEuKI",
+      "views": "900M"
+    },
+    {
+      "id": "410",
+      "songname": "Circles",
+      "title": "Post Malone",
+      "thumbnail": "src/assets/Post Malone-Circles.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=wXhTHyIgQ_U",
+      "views": "600M"
+    }
+  ],
+  "topAlbums": [
+    {
+      "id": "501",
+      "albumName": "Evolve",
+      "artistName": "Imagine Dragons",
+      "coverImage": "src/assets/Rectangle17.png",
+      "releaseYear": 2017
+    },
+    {
+      "id": "502",
+      "albumName": "Future Nostalgia",
+      "artistName": "Dua Lipa",
+      "coverImage": "src/assets/Dua_Lipa_-_Future_Nostalgia.png",
+      "releaseYear": 2020
+    },
+    {
+      "id": "503",
+      "albumName": "After Hours",
+      "artistName": "The Weeknd",
+      "coverImage": "src/assets/After Hours.jpg",
+      "releaseYear": 2020
+    },
+    {
+      "id": "504",
+      "albumName": "When We All Fall Asleep, Where Do We Go?",
+      "artistName": "Billie Eilish",
+      "coverImage": "src/assets/When We All Fall Asleep, Where Do We Go.webp",
+      "releaseYear": 2019
+    },
+    {
+      "id": "505",
+      "albumName": "Curtain Call",
+      "artistName": "Eminem",
+      "coverImage": "src/assets/Curtain Call.jpg",
+      "releaseYear": 2005
+    },
+    {
+      "id": "506",
+      "albumName": "Midnights",
+      "artistName": "Taylor Swift",
+      "coverImage": "src/assets/Midnights.jpg",
+      "releaseYear": 2022
+    },
+    {
+      "id": "507",
+      "albumName": "Beerbongs & Bentleys",
+      "artistName": "Post Malone",
+      "coverImage": "src/assets/Post-Malone-Beerbongs-and-Bentleys.webp",
+      "releaseYear": 2018
+    },
+    {
+      "id": "508",
+      "albumName": "Scorpion",
+      "artistName": "Drake",
+      "coverImage": "src/assets/Scorpion_by_Drake.jpg",
+      "releaseYear": 2018
+    },
+    {
+      "id": "509",
+      "albumName": "÷ (Divide)",
+      "artistName": "Ed Sheeran",
+      "coverImage": "src/assets/÷ (Divide).jpg",
+      "releaseYear": 2017
+    },
+    {
+      "id": "510",
+      "albumName": "21",
+      "artistName": "Adele",
+      "coverImage": "src/assets/Adele_-_21.jpg",
+      "releaseYear": 2011
+    }
+  ],
+  "moodPlaylists": [
+    {
+      "id": "601",
+      "mood": "Energetic",
+      "coverImage": "src/assets/Energetic.jpg",
+      "playlistSongs": [
+        101,
+        201
+      ]
+    },
+    {
+      "id": "602",
+      "mood": "Chill",
+      "coverImage": "src/assets/Chill.jpg",
+      "playlistSongs": [
+        102
+      ]
+    },
+    {
+      "id": "603",
+      "mood": "Romantic",
+      "coverImage": "src/assets/Romantic.jpg",
+      "playlistSongs": [
+        301,
+        302,
+        303
+      ]
+    },
+    {
+      "id": "604",
+      "mood": "Workout",
+      "coverImage": "src/assets/Workout.jpg",
+      "playlistSongs": [
+        304,
+        305,
+        306
+      ]
+    },
+    { 
+      "id": "605",
+      "mood": "Sad",
+      "coverImage": "src/assets/Sad.jpg",
+      "playlistSongs": [
+        307,
+        308,
+        309
+      ]
+    },
+    {
+      "id": "606",
+      "mood": "Party",
+      "coverImage": "src/assets/best-party-playlist.jpg",
+      "playlistSongs": [
+        310,
+        103,
+        104
+      ]
+    },
+    {
+      "id": "607",
+      "mood": "Focus",
+      "coverImage": "src/assets/Focus.jpg",
+      "playlistSongs": [
+        105,
+        106,
+        107
+      ]
+    },
+    {
+      "id": "608",
+      "mood": "Happy",
+      "coverImage": "src/assets/Happy.jpg",
+      "playlistSongs": [
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "id": "609",
+      "mood": "Chill Vibes",
+      "coverImage": "src/assets/Chill Vibes.jpg",
+      "playlistSongs": [
+        201,
+        202,
+        203
+      ]
+    },
+    {
+      "id": "610",
+      "mood": "Epic",
+      "coverImage": "src/assets/Epic.webp",
+      "playlistSongs": [
+        204,
+        205,
+        206
+      ]
+    }
+  ]
+}

@@ -7,10 +7,13 @@ import Contact from "./pages/Contact";
 import Premium from "./pages/Premium";
 import NotFound from "./pages/NotFound";
 
+import AudioPlayer from "./components/AudioPlayer"; // 🔥 AudioPlayer import ettik
+
 const App = () => {
   return (
     <div className="app-layout">
-      <Sidebar/>
+      <Sidebar />
+      
       <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,6 +22,8 @@ const App = () => {
           <Route path="/premium" element={<Premium />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+
+        <AudioPlayer /> 
       </div>
     </div>
   );

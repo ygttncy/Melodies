@@ -1,0 +1,73 @@
+.trending-songs {
+  width: 1070px;
+  height: auto;
+  padding: 24px;
+  overflow: visible;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: white;
+  font-family: "Vazirmatn", sans-serif;
+  margin-left: 290px;
+
+  &__header {
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+
+      span {
+        color: #ee10b0;
+      }
+    }
+
+    .trending-songs__columns {
+      width: 690px;
+      height: 30px;
+      display: flex;
+      margin-left: 500px;
+      gap: 80px;
+      font-size: 14px;
+      color: #aaa;
+      margin-top: 8px;
+      padding-right: 24px;
+      .time {
+        margin-left: 230px;
+      }
+      .album {
+        left: 100px;
+      }
+    }
+  }
+
+  &__list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__view-all {
+    align-self: center;
+    margin-top: 8px;
+    background-color: #1e1e1e;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #292929;
+    }
+
+    svg {
+      color: white;
+    }
+  }
+}
