@@ -12,7 +12,7 @@ import {
   FaSignOutAlt,
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-import { useState } from "react"; // ✅ useState eklendi
+import { useState } from "react"; 
 import "../styles/components/sidebar.scss";
 
 const Sidebar = () => {

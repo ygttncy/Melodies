@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Premium from "./pages/Premium";
 import NotFound from "./pages/NotFound";
+import Discover from "./pages/Discover";
 
 import AudioPlayer from "./components/AudioPlayer"; // 🔥 AudioPlayer import ettik
 
@@ -16,6 +17,7 @@ const App = () => {
       
       <div className="main-content">
         <Routes>
+          <Route path="/discover" element={<Discover />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

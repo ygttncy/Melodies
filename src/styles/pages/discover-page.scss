@@ -1,0 +1,62 @@
+.discover-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #121212;
+    color: #fff;
+    font-family: "Vazirmatn", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+  
+    &__content {
+      padding: 100px 32px 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 64px;
+    }
+  
+    &__footer {
+      background-color: #1e1e1e;
+      padding: 40px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      border-top: 1px solid #333;
+  
+      .footer__info p {
+        font-size: 14px;
+        color: #aaa;
+      }
+  
+      .footer__columns {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  
+        h4 {
+          font-size: 16px;
+          margin-bottom: 8px;
+          color: #fff;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+          font-size: 14px;
+          color: #bbb;
+  
+          li {
+            margin-bottom: 4px;
+          }
+        }
+      }
+  
+      .footer__brand {
+        margin-top: 24px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #c32ec9;
+      }
+    }
+  }
+  

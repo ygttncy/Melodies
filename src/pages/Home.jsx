@@ -1,17 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import HeroSection from "../components/HeroSection";
 import SongList from "../components/SongList";
 import TrendingSongs from "../components/TrendingSongs";
-
 import AlbumList from "../components/AlbumList";   
 import PlaylistList from "../components/PlaylistList"; 
 import VideoModal from "../components/VideoModal";
-import musicData from "../data/musicData.json";
 import PopularArtistList from "../components/PopularArtistList";
 import VideoCardList from "../components/VideoCardList";
 
 const Home = () => {
+  const [musicData, setMusicData] = useState(null);
   const [activeVideoId, setActiveVideoId] = useState(null);
+
+  useEffect(() => {
+    fetch('/public/data/musicData.json')
+      .then(res => res.json())
+      .then(data => setMusicData(data))
+      .catch(err => console.error('Veri yüklenemedi:', err));
+  }, []);
+
+  if (!musicData) {
+    return <div className="loading">Loading...</div>; // İstersen burada bir skeleton da verebiliriz
+  }
 
   const allSongs = musicData.artists.flatMap(artist => artist.songs);
   const trendingSongs = allSongs.filter(song => song.isTrending);
@@ -46,7 +56,6 @@ const Home = () => {
         data={trendingSongs}
         limit={10} 
       />
-   
 
       {/* Popular Artists */}
       <PopularArtistList
