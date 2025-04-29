@@ -1,8 +1,6 @@
-// VideoCardList.jsx
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import VideoCard from "./VideoCard";
 import VideoModal from "./VideoModal";
-import musicData from "../data/musicData.json";
 import "../styles/components/video-card.scss";
 
 const extractYouTubeId = (url) => {
@@ -11,13 +9,24 @@ const extractYouTubeId = (url) => {
 };
 
 const VideoCardList = () => {
-  const videos = musicData.musicVideos;
+  const [videos, setVideos] = useState([]);
   const [selectedVideoId, setSelectedVideoId] = useState(null);
+
+  useEffect(() => {
+    fetch("/public/data/musicData.json")
+      .then((res) => res.json())
+      .then((data) => setVideos(data.musicVideos))
+      .catch((err) => console.error("Video verileri yüklenemedi:", err));
+  }, []);
 
   const openModal = (videoUrl) => {
     const videoId = extractYouTubeId(videoUrl);
     setSelectedVideoId(videoId);
   };
+
+  if (!videos.length) {
+    return <div className="loading">Loading videos...</div>;
+  }
 
   return (
     <section className="video-card-list">

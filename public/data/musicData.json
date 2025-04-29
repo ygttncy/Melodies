@@ -865,5 +865,38 @@
         206
       ]
     }
-  ]
+  ],
+  "musicGenres": [
+  {
+    "id": "701",
+    "genreName": "Rap",
+    "coverImage": "/assets/rap.png"
+  },
+  {
+    "id": "702",
+    "genreName": "Pop",
+    "coverImage": "/assets/pop.png"
+  },
+  {
+    "id": "703",
+    "genreName": "Rock",
+    "coverImage": "/assets/Rock.png"
+  },
+  {
+    "id": "704",
+    "genreName": "Electronic",
+    "coverImage": "/assets/Electronic.jpg"
+  },
+  {
+    "id": "705",
+    "genreName": "R&B",
+    "coverImage": "/assets/R&B.jpg"
+  },
+  {
+    "id": "706",
+    "genreName": "Alternative",
+    "coverImage": "/assets/Alternative.jpg"
+  }
+]
+
 }

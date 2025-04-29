@@ -1,10 +1,20 @@
-
+import { useEffect, useState } from "react";
 import ArtistCard from "./ArtistCard";
-import musicData from "../data/musicData.json";
 import "../styles/components/artist-card.scss";
 
 const PopularArtistList = () => {
-  const popularArtists = musicData.popularArtists;
+  const [popularArtists, setPopularArtists] = useState([]);
+
+  useEffect(() => {
+    fetch("/public/data/musicData.json")
+      .then((res) => res.json())
+      .then((data) => setPopularArtists(data.popularArtists))
+      .catch((err) => console.error("Popüler sanatçılar yüklenemedi:", err));
+  }, []);
+
+  if (!popularArtists.length) {
+    return <div className="loading">Loading artists...</div>;
+  }
 
   return (
     <section className="popular-artist-list">
