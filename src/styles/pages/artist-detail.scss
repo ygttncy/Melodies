@@ -1,0 +1,85 @@
+.artist-detail {
+  padding: 32px;
+  background-color: #1e1e1e;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 37px;
+  max-width: 1076px;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+
+  &__header {
+    position: relative; /* Bunu ekledik */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Görsel ve metni ayırmak için */
+    width: 100%;
+    height: 422px;
+    margin-bottom: 30px;
+    
+
+    .artist-detail__image {
+      width: 1076px; /* Genişlik 1076px */
+      height: 422px; /* Yükseklik 422px */
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .artist-detail__info {
+      position: absolute; /* Bilgileri görselin üzerine yerleştirmek için */
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      color: #fff;
+
+      h2 {
+        font-size: 48px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      p {
+        font-size: 16px;
+        color: #ccc;
+        margin: 5px 0;
+      }
+    }
+
+    .artist-detail__actions {
+      position: absolute; /* Butonları sağ üstte yerleştiriyoruz */
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+
+      button {
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #444;
+        }
+      }
+    }
+  }
+
+  &__section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .song-list__scroll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

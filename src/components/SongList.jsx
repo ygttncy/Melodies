@@ -1,9 +1,12 @@
+import { useState } from "react";
 import SongCard from "./SongCard";
-
 import "../styles/components/song-list.scss";
-import ViewAllCard from "./ViewAllCard";
 
-const SongList = ({ title = "", highlight = "", data = [], onViewAll }) => {
+const SongList = ({ title, highlight, data = [], limit }) => {
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedData = showAll ? data : data.slice(0, limit);
+
   return (
     <section className="song-list">
       <div className="song-list__header">
@@ -13,18 +16,23 @@ const SongList = ({ title = "", highlight = "", data = [], onViewAll }) => {
       </div>
 
       <div className="song-list__scroll">
-        {data.map((song) => (
+        {displayedData.map((item) => (
           <SongCard
-            key={song.id}
-            image={song.image}
-            title={song.title}
-            songname={song.songname}
+            key={item.id}
+            image={item.image}
+            title={item.title}
+            songname={item.songname}
+            audio={item.audio}
           />
         ))}
-
- 
-        <ViewAllCard onClick={onViewAll} />
+           {!showAll && limit && data.length > limit && (
+        <button className="song-list__view-all" onClick={() => setShowAll(true)}>
+          View All
+        </button>
+      )}
       </div>
+
+   
     </section>
   );
 };

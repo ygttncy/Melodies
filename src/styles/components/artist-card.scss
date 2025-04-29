@@ -1,0 +1,51 @@
+.artist-card__container {
+  text-align: center;
+  width: 100px;
+  flex-shrink: 0;
+
+  .artist-card {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+    margin-left: 350px;
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &__image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 8px;
+      border: 2px solid #444;
+    }
+
+    &__name {
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+    }
+  }
+}
+.popular-artist-list__content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.popular-artist-list__title {
+  margin-left: 310px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+
+  span {
+    color: #ee10b0;
+    font-weight: bold;
+  }
+}
