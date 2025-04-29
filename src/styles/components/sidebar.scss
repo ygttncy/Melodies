@@ -13,6 +13,7 @@
   position: fixed;
   top: 0;
   z-index: 9999999;
+  transition: all 0.3s ease;
 
   &__logo {
     font-size: 24px;
@@ -71,8 +72,45 @@
       }
     }
   }
-  a{
+
+  a {
     text-decoration: none;
     color: white;
+  }
+
+  // 👇 Responsive yapı burada başlıyor 👇
+
+  @media (max-width: 1024px) {
+    width: 220px;
+  }
+
+  @media (max-width: 768px) {
+    left: -100%;
+    width: 240px;
+    transition: left 0.3s ease;
+  }
+
+  &.active {
+    @media (max-width: 768px) {
+      left: 0;
+    }
+  }
+}
+
+// 👇 Hamburger buton (isteğe bağlı eklenebilir) 👇
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10000000;
+
+  @media (max-width: 768px) {
+    display: block;
   }
 }
